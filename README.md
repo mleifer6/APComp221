@@ -12,5 +12,5 @@ This folder contains:
 Testing:
 - identification.ipynb contains various assert statements throughout the notebook that check the vailidity 
 of the data set after each manipulation as well as changing column types in the data set. The assert statements, given the dependencies between questions, confirm that the data set is in an appropriate form after pasing through written functions such as suppression, blurring and generalization.
-- A mock csv file further tests the code. Given its invalid format, the mock csv raises exceptions and 
-prevents code from breaking. 
+- A mock csv file, test.csv further tests the code. Given its invalid format, the mock csv raises exceptions and 
+prevents code from breaking upon processing invalid inputs. 
